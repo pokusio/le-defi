@@ -1,4 +1,4 @@
-# le-defi
+# Le Défi (I dare anyone in the world)
 
 
 Does the blockchain exists ? 
@@ -21,16 +21,27 @@ The conditions for a proof to be accepted :
 
 Because today, 2020, if you say you are the author or even contributor, to any open source blockchain project, and at the same time, say that it is too much work to automate its installation and build from source, you are a liar.
   
+
 And since the discussions with the people I cross roads with, on the subject, keeps being jut beer non-sense, I decided to open this repo, where I will challenge anyone in this world, to give a proof, that there exist any open source blockchain project in this world.
+
 
 And until anyone in this world gives a proof, I will make every engineer, in every bar, and in every conference room in this world, admit he does not have any proof, of the existence of any free open source blockchain project : 
 
 Either he admits it, or he opens an issue on this repo, and he will therefore admit it, or let all of his friends, weeks after week, witness that he never opened any issue, and did not give any proof.
 
+
 Also, I will explain to all of those interested in the subject, that obviously, if such a project actually existed, it would take just five seconds to any engineer in this world to bring in a proof : 
 * we all, every last one of us, prepare automated recipes for our companies' products.
 * so giving a proof would take 5 to ten seconds : giving an http link to the README.md that explains how to use the automated recipes.
 
+
+# How to defeat me
+
+Open an issue, and give the link to a publicly available two automated recipes : 
+* one that successfully provisions a Blockchain
+* one that sucessfully builds from source all the binaries used by the first automated recipe (which provisions a Blockchain)
+
+## The broken list
 
 Finally, I will not just wait for a proof : 
 * every time I fall on anything that looks like a blockchain
