@@ -6,8 +6,6 @@
 jbl@poste-devops-jbl-16gbram:~$ helm version
 version.BuildInfo{Version:"v3.2.0", GitCommit:"e11b7ce3b12db2941e90399e874513fbd24bcb71", GitTreeState:"clean", GoVersion:"go1.13.10"}
 jbl@poste-devops-jbl-16gbram:~$ export KUBECONFIG=~/.petit.kube/.kube/config 
-jbl@poste-devops-jbl-16gbram:~$ git clone helm-ethereum
-fatal: repository 'helm-ethereum' does not exist
 jbl@poste-devops-jbl-16gbram:~$ git clone git@github.com:helm/charts.git  helm-ethereum
 Cloning into 'helm-ethereum'...
 remote: Enumerating objects: 105973, done.
