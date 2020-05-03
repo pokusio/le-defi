@@ -17,12 +17,13 @@ The conditions for a proof to be accepted :
   * I will prove that I knew about that technology before opening this repo
   * That technology has a name starting with the letter **`b`** 
   * I already know about that technology
-  * Yes it makes a whole lot of sense : enventually, I dare any one in this world, to prove that there exists any open source project,
+  * so I dare any one in this world, to prove that there exists any Blockchain open source project, whose name does not start wiht the letter **`b`**.
 
-Because today, 2020, if you say you are the author or even contributor, to any open source blockchain project, and at the same time, say that it is too much work to automate its installation and build from source, you are a liar.
-  
+Today, in 2020, if you say you are the author or even contributor, to any open source blockchain project, and at the same time, say that it is too much work, to automate its installation and build from source, you are a liar.
 
-And since the discussions with the people I cross roads with, on the subject, keeps being jut beer non-sense, I decided to open this repo, where I will challenge anyone in this world, to give a proof, that there exist any open source blockchain project in this world.
+
+
+And since the discussions with the people I cross roads with, on the Blockchain subject, keeps being jut youtube beer non-sense, I decided to open this repo, where I challenge anyone in this world, to give a proof, that there exist any open source blockchain project in this world (whose name does not start with the **`b`** letter).
 
 
 And until anyone in this world gives a proof, I will make every engineer, in every bar, and in every conference room in this world, admit he does not have any proof, of the existence of any free open source blockchain project : 
@@ -57,6 +58,8 @@ Because I think it is the least we can do, to have a scientific proof of anythin
 
 
 ## The broken list board
+
+To make the challenge more exicting, I will hit a lot of projects whose name start with the **`b`**  letter, so that none of them escape the challenge.
 
 * **The Helm project/ethereum** provides a set of "curated" charts :! 
   * published in their "curated charts" a broken recipe about `ethereum`, which does not work : 
