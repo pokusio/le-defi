@@ -56,7 +56,7 @@ Finally, I will not just wait for a proof :
 Because I think it is the least we can do, to have a scientific proof of anything we state to people who pay, and trust us, engineers.
 
 
-## The broken list
+## The broken list board
 
 * **The Helm project/ethereum** provides a set of "curated" charts :! 
   * published in their "curated charts" a broken recipe about `ethereum`, which does not work : 
