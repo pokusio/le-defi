@@ -48,6 +48,8 @@ Because I think it is the least we can do, to have a scientific proof of anythin
 ## The broken list
 
 * **The Helm project/ethereum** provides a set of "curated" charts :! 
-  * published in their "curated charts" a broken recipe about `ethereum`, which does not work : https://github.com/helm/charts/issues/22233 
+  * published in their "curated charts" a broken recipe about `ethereum`, which does not work : 
+    * https://github.com/helm/charts/issues/22233 
+    * https://github.com/helm/charts/issues/22009#issuecomment-623066641 
 
 
