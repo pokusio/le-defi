@@ -7,7 +7,7 @@ This is a question that rose, recently. Indeed, I am a curious an by nature, and
 
 
 
-So I dare you, to open an issue on this repo, to bring in a proof.
+So I dare you, to open an issue on this repo, and bring in a proof.
 
 The conditions for a proof to be accepted : 
 * Only one, for the time being, the proof should consist of an entirely automated installation process (no interactivity, or almost none)
@@ -59,7 +59,7 @@ Because I think it is the least we can do, to have a scientific proof of anythin
 
 ## The broken list board
 
-To make the challenge more exicting, I will hit a lot of projects whose name start with the **`b`**  letter, so that none of them escape the challenge.
+To make the challenge more exicting, I will hit a lot of projects whose name start with the **`b`**  letter, so that none of them escape the challenge. My current work is on bitcoin https://github.com/pokusio/le-defi/issues/1
 
 * **The Helm project/ethereum** provides a set of "curated" charts :! 
   * published in their "curated charts" a broken recipe about `ethereum`, which does not work : 
