@@ -15,7 +15,7 @@ The conditions for a proof to be accepted :
 * There is only one specific technology, that I will not accept as a proved blockchain : 
   * I will talk about that technology, 
   * I will prove that I knew about that technology before opening this repo
-  * That technology has a name starting with the letter **`b`** 
+  * That technology has a name starting with the letter **`b`** (and it is _not_ bitcoin)
   * I already know about that technology
   * so I dare any one in this world, to prove that there exists any Blockchain open source project, whose name does not start wiht the letter **`b`**.
 
