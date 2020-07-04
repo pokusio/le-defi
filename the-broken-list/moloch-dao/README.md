@@ -1,4 +1,4 @@
-# Just another one : Moloch "DAO" (Have becaom a Demon hunter...??)
+# Just another one : Moloch "DAO" (Have become a Demon hunter...??)
 
 Under test, here : 
 
@@ -75,6 +75,24 @@ Okay, so let's now just just the stuf until npm install, just for the sake of et
 
 
 ```bash
+jbl@pc-alienware-jbl:~/hello.santiago$ npm --version
+6.14.5
+jbl@pc-alienware-jbl:~/hello.santiago$ sudo npm install -g npx
+npm ERR! code EEXIST
+npm ERR! syscall symlink
+npm ERR! path ../lib/node_modules/npx/index.js
+npm ERR! dest /usr/bin/npx
+npm ERR! errno -17
+npm ERR! EEXIST: file already exists, symlink '../lib/node_modules/npx/index.js' -> '/usr/bin/npx'
+npm ERR! File exists: /usr/bin/npx
+npm ERR! Remove the existing file and try again, or run npm
+npm ERR! with --force to overwrite files recklessly.
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     /root/.npm/_logs/2020-07-04T15_27_23_328Z-debug.log
+jbl@pc-alienware-jbl:~/hello.santiago$ npx --version
+6.14.5
+jbl@pc-alienware-jbl:~/hello.santiago$ 
 
 ```
 
