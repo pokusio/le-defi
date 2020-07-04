@@ -1,7 +1,7 @@
 # Experimenting all repos talking about blockchain in democracy.earth org on Github (and another one)
 
 > 
-> Note : All test swere run on a `Debian Stretch` machine, 2 Gb of RAM 12 CPUs threads
+> Note : All tests were run on a `Debian Stretch` machine, 2 Gb of RAM 12 CPUs threads
 > 
 
 
