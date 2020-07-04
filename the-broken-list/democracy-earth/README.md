@@ -1,4 +1,4 @@
-# Experimenting all repos talking about blockchain in democracy.earth org on Github
+# Experimenting all repos talking about blockchain in democracy.earth org on Github (and another one)
 
 If you are curious to see and hear Mr. Santiago Siri Talking about great ideas, in 2016, before checking how much of these great ideas, he and his party have turned into acts since 2016, just watch : 
 
