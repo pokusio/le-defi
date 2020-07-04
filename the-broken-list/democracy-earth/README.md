@@ -1144,9 +1144,9 @@ I also have today, 4th of July, 2020 :
 
 Now, Mr. Siri, we can talk again about your little joke about France, when you are ready to answer this question.
 
-Or when you can proove you konw how to deploy a full Ethereum Blockchain, from pure open source code.
+Or when you can prove you know how to deploy a full Ethereum Blockchain, from pure open source code.
 
-And let me give you a real quote, from De Gaulle : 
+Finally, let me give you a real quote, from De Gaulle : 
 
 > 
 > Des chercheurs qui cherchent, on en trouve, des chercheurs qui trouvent, on en cherche.
