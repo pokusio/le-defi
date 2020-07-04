@@ -1129,10 +1129,13 @@ So I have as conclusion, one question, and one piece of advice to my only questi
 * How much Sovereignity is that ?
 * I (my personal opinion engaged here, only mine) give the Argentinian great people, the advice to not ever trust what **Democracy Earth** and **PartidoDeLared** propose you to use as software, because they had 4 years, to make something decent, since 2016's talk and great political declarations of Mr. Santiago Siri. And after 4 years, they did not inform you at all, of all those informations I gav eyou here in 5 hours of work, (One Day).
 
-I also have today, 4th of July, 2020, sent an email to the Democracy Earth Team to give them a chance to change this catastrpophic situation with their project : 
+I also have today, 4th of July, 2020 : 
 
+* sent an email to the Democracy Earth Team to give them a chance to change this catastrpophic situation with their project : 
 
 ![my email](https://github.com/Jean-Baptiste-Lasselle/for-fellow-developers/raw/master/docuementation/impr.ecrans/democracy-earth/MAIL_TO_DEMOCRACY_EARTH_2020-07-04%2016-35-31.png)
+
+* and opened an issue on the Democracy Earth "Sovereign" project:  https://github.com/DemocracyEarth/sovereign/issues/514
 
 Now, Mr. Siri, we can talk again about your little joke about France, when you are ready to answer this question.
 
