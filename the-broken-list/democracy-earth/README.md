@@ -153,7 +153,7 @@ git checkout ${VERSION_UNDER_TEST}
 # lacks environement vairables, very bad sign for what is going to happen at runtime inside that box
 
 docker-compose up
-curl -H "Content-type:application/json" --data '{"data" : "Some data to the first block"}' http://localhost:3001/mineBlock
+
 
 ```
 
@@ -365,7 +365,8 @@ Step 3/11 : RUN curl -sL https://deb.nodesource.com/setup_8.x | bash -
 ================================================================================
 ```
 
-But lets's give it a second chance : lets run it "bare metal", that is out of any container, and just running the developers command, following the instructions given in the root [README.md](https://github.com/DemocracyEarth/sovereign/blob/master/README.md) : 
+But let's give it a second chance (the last chance) : 
+* lets run it "bare metal", that is out of any container, and just running the developers command, following the instructions given in the root [README.md](https://github.com/DemocracyEarth/sovereign/blob/master/README.md) : 
 
 ```bash
 export OPS_HOME=~/hello.santiago
@@ -385,17 +386,54 @@ cd ${OPS_HOME}
 
 git checkout ${VERSION_UNDER_TEST}
 
-# attmepting quickstart with docker 
-# one thing I really don't like here : 
-# the docker-ècompose is much too simple "to be true", especally it 
-# lacks environement vairables, very bad sign for what is going to happen at runtime inside that box
+# so folowing top readme instructions
 
-docker-compose up
-curl -H "Content-type:application/json" --data '{"data" : "Some data to the first block"}' http://localhost:3001/mineBlock
+# On Linux & MacOS, load a terminal and type:
+# (installing meteor framework)
+curl https://install.meteor.com/ | sh
+
+# install dependencies
+# if you have npm installed, type:
+# npm install 
+
+# I did not install npm, to make sure I have only ONE unque npm on the system :  to avoid probable bugs and interferences
+
+# if you only have meteor, type:
+meteor npm install
+
 
 ```
+* Ok, now we need to configure the so called "sovereign" software form "Democracy Earth", and now I quote the doc : 
 
+> 
+> 4. **Configure**
+> 
+>     * On `/config/development/settings.json` you can configure Sovereign for your organization's governance needs.
+>         * Make sure you configure the keys on `private.web3` to connect to an Ethereum node ([Infura](https://infura.io) API keys are supported).
+>         * For production, you can use `/config/production/settings.json` file and run `$ meteor --settings=config/production/settings.json` in the console.
+>     * Seed DAO settings can be found on `/private/dao.json` which consists of an array of DAOs to be read from the blockchain and persisted in the server DB. 
+>         * [MolochDAO](https://molochdao.com) and others are included by default.
+>     * Make sure `ROOT_URL` on `settings.json` is properly set to the domain that will be serving the application. 
+>         * We recommend the use of `https` **always** when deployed on a server.
+>     * On `/public/templates/` different template style folders are available. 
+>         * The file `templateName.json` can be configured and a css design can be found on `/public/templates/name/css` folder.
+> 
 
+So let's sum it up : 
+
+* The software cannot run without an Ethereum full blcockchain, and that blockchain is NOT provided by "democracy.earth" org.
+* I have worked on etehreum, and I there is no one in this world who could ever point to me one repo, anywhere from which you can deploy a full Ethereum infrastructutre on premises (fully private and off internet, just a private network) : 
+  * And I have a strong opinion as of today, and until I am proved wrong, that Ethereum is a typical "open source false flag" : it does all it can, to make you believe it is open source, while in the end, you will have to pay a company operating something theyu call ethereum, and you don't have a clue chwhat is actually is 
+  * indeed, you can see how I worked on the subject, and directly challenged people, abotu that, here : https://github.com/pokusio/le-defi/tree/master/the-broken-list/helm-curated-charts/etherum
+* Now it is a very bad sign, that this project has Etehreum as a dependency , because of what I just said. And guess what Mr. Santiago Siri suggests you, if you do not have a private Etehereum ? : 
+  * He usggests you to use an Ethereum SAAS, called https://infura.io/product  : there you will have to pay, and You do not have a clue wwhat actually is there. **How much of sovereignty is that ???**
+  * Worse, and my guess, cause I have a looot of experience with that kind of profile : I bet no one at Democracy Earth know how to deploy a fully private, off the internet, `Ethereum` Blockchain (Or proove me wrong, and open an issue on this repo, with references)
+
+Now, the test results, up until meteor npm install : 
+
+```bash 
+
+```
 ## Other tested repos 
 
 * https://github.com/DemocracyEarth/sovereign
