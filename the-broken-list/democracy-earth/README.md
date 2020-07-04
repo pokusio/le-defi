@@ -50,6 +50,9 @@ git clone https://github.com/DemocracyEarth/blockchain ${OPS_HOME}
 
 cd ${OPS_HOME}
 
+git checkout ${VERSION_UNDER_TEST}
+
+
 # following quickstart with docker
 docker-compose up
 curl -H "Content-type:application/json" --data '{"data" : "Some data to the first block"}' http://localhost:3001/mineBlock
@@ -137,6 +140,8 @@ export VERSION_UNDER_TEST=0.8.0
 git clone https://github.com/DemocracyEarth/sovereign ${OPS_HOME}
 
 cd ${OPS_HOME}
+
+git checkout ${VERSION_UNDER_TEST}
 
 # attmepting quickstart with docker 
 # one thing I really don't like here : 
