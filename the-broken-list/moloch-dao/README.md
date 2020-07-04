@@ -39,7 +39,7 @@ fi;
 # https://github.com/MolochVentures/moloch/commit/7db370566a5d8c3bad3624700a4ca710c8cf35b4  is latest commit on the 4th of July, 2020
 export VERSION_UNDER_TEST=7db370566a5d8c3bad3624700a4ca710c8cf35b4
 
-git clone https://github.com/MolochVentures/moloch#installation ${OPS_HOME}
+git clone https://github.com/MolochVentures/moloch ${OPS_HOME}
 
 cd ${OPS_HOME}
 
