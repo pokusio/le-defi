@@ -37,6 +37,8 @@ Fine, now just testing for the ethics, but given those first datas, well you and
 ```bash
 export OPS_HOME=~/hello.santiago
 
+cd ~ 
+
 if [ -d ${OPS_HOME} ]; then 
   sudo rm -fr ${OPS_HOME}
 fi;
@@ -122,6 +124,8 @@ As of the 4th of July 2020 :
 
 ```bash
 export OPS_HOME=~/hello.santiago
+
+cd ~
 
 if [ -d ${OPS_HOME} ]; then 
   sudo rm -fr ${OPS_HOME}
