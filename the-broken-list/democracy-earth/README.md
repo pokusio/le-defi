@@ -4,7 +4,7 @@
 > Note : All tests were run on a `Debian Stretch` machine, 2 Gb of RAM 12 CPUs threads
 > 
 
-* A funny, demonic detail about Democracy Earth main product, "`sovereign`" : https://github.com/pokusio/le-defi/blob/master/the-broken-list/moloch-dao/README.md#funny-little-detail-the-devil-is-found-into-details
+* A funny, [demonic detail about Democracy Earth main product, "`sovereign`"](https://github.com/pokusio/le-defi/blob/master/the-broken-list/moloch-dao/README.md#funny-little-detail-the-devil-is-found-into-details) will perhaps make you share my today's opinion, that "`sovereign`" is mainly a fork built on top of Moloch, which a very, very money-interested organization (A "Venture"...)
 
 
 If you are curious to see and hear Mr. Santiago Siri Talking about great ideas, in 2016, before checking how much of these great ideas, he and his party have turned into acts since 2016, just watch : 
