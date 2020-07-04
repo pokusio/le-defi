@@ -37,6 +37,10 @@ Fine, now just testing for the ethics, but given those first datas, well you and
 ```bash
 export OPS_HOME=~/hello.santiago
 
+if [ -d ${OPS_HOME} ]; then 
+  sudo rm -fr ${OPS_HOME}
+fi;
+
 # https://github.com/DemocracyEarth/blockchain/commit/6573d3ebdace5914e36457c14632d890bb03a14a  is latest commit on July, the 4th
 export VERSION_UNDER_TEST=6573d3ebdace5914e36457c14632d890bb03a14a
 
@@ -50,5 +54,58 @@ curl -H "Content-type:application/json" --data '{"data" : "Some data to the firs
 
 ```
 
+
+## https://github.com/DemocracyEarth/sovereign
+
+Now let's take care their "main" one (supposed to bring, how did they call it , "Liquid", democracy...?)
+
+As of the 4th of July 2020 : 
+* first thing : the last commits are from sdays ago (recent), there are 35 releases, and the latest is `0.8.0`, also being very recent ( [from a few days ago](https://github.com/DemocracyEarth/sovereign/commit/c3e7a536b268081e78ca1e8e2e27a5de6d4d1f49) ). Much better here, that for the "naive blockchain" 
+* Santiago Siri happens to be one of the active commiters. He commits, let's not assume to xhat, he commits, but he seems to put some energy into it.
+* second thing (collaboration) : 
+  * There are many branches, aside `master`. This does not prove how good the collaboration happens on this repo, but it looks "normal" here. 
+  * Also one good sign : there are 145 pull requests, with more than 6percent of them merged, good sign of collaboration too : https://github.com/DemocracyEarth/sovereign/pulls
+* So i'll use latest release `` for this test.
+* third thing : While https://democracy.earth/ there is zero documentation available except the README's in the repo. Ok, we have a clear scope to amke sure we miss zero information, but let's have a close look at those README's : 
+  * https://github.com/DemocracyEarth/sovereign/tree/master/README.md : here we find instructions on how to build frm source, and run the thing. But only using meteor, nothing about how to run it with docker / compose / k8S. Honestly, I don't like that, at all : all software have, today, to prove they can be containerized (and run properluy as such). I do not like that, because ther eis a DOckerfile in the repo, so how much would it take to tell us to justy `docker-compose up` ? Right, I'll test the `Dockerfile` and other container related resources i find in the repo.
+  * https://github.com/DemocracyEarth/sovereign/tree/master/docs :  pretty much nothing usueful there to run the app in a container world. Don't like that either.
+  * The two live demo links give us total failures (not even one thing appearing on screen), see [this](https://github.com/pokusio/le-defi/raw/master/the-broken-list/democracy-earth/misc/DEMOCRACY_EARTH_2020-07-04%2015-05-46.png) , and [that](https://github.com/pokusio/le-defi/raw/master/the-broken-list/democracy-earth/misc/MOLOCH_DEMOCRACY_EARTH_2020-07-04%2015-04-37.png) screenshots . Very bad omen : They do not even monitor those demos, while it is the first thing to do so that you can prove your boss you have control on what the company publishes (if the work is shit, at least you arez aware of that, and can discuss on how to improve, and when a demo fails, inform the audience, at least ! )
+
+
+
+```bash
+export OPS_HOME=~/hello.santiago
+
+if [ -d ${OPS_HOME} ]; then 
+  sudo rm -fr ${OPS_HOME}
+fi;
+
+# https://github.com/DemocracyEarth/sovereign/releases/tag/0.8.0  is latest release on July, the 4th of 2020
+export VERSION_UNDER_TEST=0.8.0
+
+git clone https://github.com/DemocracyEarth/sovereign ${OPS_HOME}
+
+cd ${OPS_HOME}
+
+# attmepting quickstart with docker 
+# one thing I really don't like here : 
+# the docker-ècompose is much too simple "to be true", especally it 
+# lacks environement vairables, very bad sign for what is going to happen at runtime inside that box
+
+docker-compose up
+curl -H "Content-type:application/json" --data '{"data" : "Some data to the first block"}' http://localhost:3001/mineBlock
+
+```
+
+
+## Other tested repos 
+
+* https://github.com/DemocracyEarth/sovereign
+
+
+## Misc.
+
+
+* https://github.com/pokusio/le-defi/raw/master/the-broken-list/democracy-earth/misc/embracing-innovation-in-government-colombia.pdf : there you will rad a whole lot of "data analysis", which obviously is supposed to look serious. Well, How serious/true can those data be, while I have those results on their "technology" ?
 
 
