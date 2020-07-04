@@ -62,47 +62,52 @@ curl -H "Content-type:application/json" --data '{"data" : "Some data to the firs
 * Result as expected : catastrophic, and to give you a hint, there is nodejs involved hgere... version four `4.6` (while `latest` is node:**fourteeen**) : 
 
 ```bash 
-jbl@pc-alienware-jbl:~/coopcycle-web$ export OPS_HOME=~/hello.santiago
-jbl@pc-alienware-jbl:~/coopcycle-web$ 
-jbl@pc-alienware-jbl:~/coopcycle-web$ if [ -d ${OPS_HOME} ]; then 
+jbl@pc-alienware-jbl:~/hello.santiago$ export OPS_HOME=~/hello.santiago
+jbl@pc-alienware-jbl:~/hello.santiago$ 
+jbl@pc-alienware-jbl:~/hello.santiago$ cd ~ 
+jbl@pc-alienware-jbl:~$ 
+jbl@pc-alienware-jbl:~$ if [ -d ${OPS_HOME} ]; then 
 >   sudo rm -fr ${OPS_HOME}
 > fi;
-jbl@pc-alienware-jbl:~/coopcycle-web$ 
-jbl@pc-alienware-jbl:~/coopcycle-web$ # https://github.com/DemocracyEarth/blockchain/commit/6573d3ebdace5914e36457c14632d890bb03a14a  is latest commit on July, the 4th
-jbl@pc-alienware-jbl:~/coopcycle-web$ export VERSION_UNDER_TEST=6573d3ebdace5914e36457c14632d890bb03a14a
-jbl@pc-alienware-jbl:~/coopcycle-web$ 
-jbl@pc-alienware-jbl:~/coopcycle-web$ git clone https://github.com/DemocracyEarth/blockchain ${OPS_HOME}
+jbl@pc-alienware-jbl:~$ 
+jbl@pc-alienware-jbl:~$ # https://github.com/DemocracyEarth/blockchain/commit/6573d3ebdace5914e36457c14632d890bb03a14a  is latest commit on July, the 4th
+jbl@pc-alienware-jbl:~$ export VERSION_UNDER_TEST=6573d3ebdace5914e36457c14632d890bb03a14a
+jbl@pc-alienware-jbl:~$ 
+jbl@pc-alienware-jbl:~$ git clone https://github.com/DemocracyEarth/blockchain ${OPS_HOME}
 Cloning into '/home/jbl/hello.santiago'...
 remote: Enumerating objects: 129, done.
 remote: Total 129 (delta 0), reused 0 (delta 0), pack-reused 129
 Receiving objects: 100% (129/129), 79.03 KiB | 0 bytes/s, done.
 Resolving deltas: 100% (72/72), done.
-jbl@pc-alienware-jbl:~/coopcycle-web$ 
-jbl@pc-alienware-jbl:~/coopcycle-web$ cd ${OPS_HOME}
+jbl@pc-alienware-jbl:~$ 
+jbl@pc-alienware-jbl:~$ cd ${OPS_HOME}
+jbl@pc-alienware-jbl:~/hello.santiago$ 
+jbl@pc-alienware-jbl:~/hello.santiago$ git checkout ${VERSION_UNDER_TEST}
+Note: checking out '6573d3ebdace5914e36457c14632d890bb03a14a'.
+
+You are in 'detached HEAD' state. You can look around, make experimental
+changes and commit them, and you can discard any commits you make in this
+state without impacting any branches by performing another checkout.
+
+If you want to create a new branch to retain commits you create, you may
+do so (now or later) by using -b with the checkout command again. Example:
+
+  git checkout -b <new-branch-name>
+
+HEAD is now at 6573d3e... valid
 jbl@pc-alienware-jbl:~/hello.santiago$ docker-compose up
-Creating network "hellosantiago_default" with the default driver
 Building node1
 Step 1/8 : FROM node:4.6
-4.6: Pulling from library/node
-386a066cd84a: Pull complete
-75ea84187083: Pull complete
-88b459c9f665: Pull complete
-1e3ee139a577: Pull complete
-f78ff7d0315b: Pull complete
-f4ba677961ff: Pull complete
-21db8c3555aa: Pull complete
-Digest: sha256:a1cc6d576734c331643f9c4e0e7f572430e8baf9756dc24dab11d87b34bd202e
-Status: Downloaded newer image for node:4.6
  ---> e834398209c1
 Step 2/8 : RUN mkdir /naivechain
- ---> Running in 1ce7908843c5
-Removing intermediate container 1ce7908843c5
+ ---> Using cache
  ---> c718f64fc76b
 Step 3/8 : ADD package.json /naivechain/
+ ---> Using cache
  ---> c98eb64950a5
 Step 4/8 : ADD main.js /naivechain/
-ERROR: Service 'node1' failed to build: ADD failed: stat /var/lib/docker/tmp/docker-builder912311471/main.js: no such file or directory
-
+ERROR: Service 'node1' failed to build: ADD failed: stat /var/lib/docker/tmp/docker-builder228511337/main.js: no such file or directory
+jbl@pc-alienware-jbl:~/hello.santiago$ 
 ```
 
 Let's move to next 
