@@ -1116,7 +1116,8 @@ Well, all in all, what I am wondering, is if Mr. Siri works with root user, in e
 
 ## Other tested repos 
 
-* TODO
+* https://github.com/DemocracyEarth/dapp :  not worht, cannot run withut ganache, which is an Ethereum component, which is does not provide it self a full Ehterum infrastructure.
+
 
 
 ## Misc.
