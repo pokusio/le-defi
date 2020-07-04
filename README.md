@@ -12,6 +12,7 @@ So I dare you, to open an issue on this repo, and bring in a proof.
 The conditions for a proof to be accepted : 
 * Only one, for the time being, the proof should consist of an entirely automated installation process (no interactivity, or almost none)
 * You must provide complete source code, and fully automated process for building from source all binaries.
+* The entire blockchain must not lose any feature, at all, I f I run it on a compeltely private infrastructure, all completely disconnected from the public internet.
 * There is only one specific technology, that I will not accept as a proved blockchain : 
   * I will talk about that technology, 
   * I will prove that I knew about that technology before opening this repo
@@ -19,19 +20,19 @@ The conditions for a proof to be accepted :
   * I already know about that technology
   * so I dare any one in this world, to prove that there exists any Blockchain open source project, whose name does not start wiht the letter **`b`**.
 
-Today, in 2020, if you say you are the author or even contributor, to any open source blockchain project, and at the same time, say that it is too much work, to automate its installation and build from source, you are a liar.
+Today, in 2020, if you say you are the author or even contributor, to any open source blockchain project, and at the same time, say that it is too much work, to automate its installation and build from source, I say you are a liar.
 
 
-
-And since the discussions with the people I cross roads with, on the Blockchain subject, keeps being jut youtube beer non-sense, I decided to open this repo, where I challenge anyone in this world, to give a proof, that there exist any open source blockchain project in this world (whose name does not start with the **`b`** letter).
+And since the discussions with the people I cross roads with, on the Blockchain subject, keeps being just youtube beer non-sense, I decided to open this repo, where I challenge anyone in this world, to give a proof, that there exist any open source blockchain project in this world (whose name does not start with the **`b`** letter).
 
 
 And until anyone in this world gives a proof, I will make every engineer, in every bar, and in every conference room in this world, admit he does not have any proof, of the existence of any free open source blockchain project : 
 
-Either he admits it, or he opens an issue on this repo, and he will therefore admit it, or let all of his friends, weeks after week, witness that he never opened any issue, and did not give any proof.
+Either he admits it, or he opens an issue on this repo, and give the proof. Or he can keep saying things, and let all of his friends, weeks after week, witness that he never opened any issue, and did not give any proof.
 
 
 Also, I will explain to all of those interested in the subject, that obviously, if such a project actually existed, it would take just five seconds to any engineer in this world to bring in a proof : 
+ 
 * we all, every last one of us, prepare automated recipes for our companies' products.
 * so giving a proof would take 5 to ten seconds : giving an http link to the README.md that explains how to use the automated recipes.
 
