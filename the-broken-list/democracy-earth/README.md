@@ -158,6 +158,43 @@ curl -H "Content-type:application/json" --data '{"data" : "Some data to the firs
 
 ```
 
+Results : 
+
+* (bad point here) during docker build process, we have stpout showing project is using nodejs version... Eight `8.x` (very much outdated, nodejs tells it to us explicitly, not me) How is the software going to behave, while we bump to more recent nodejs , e.g. `node:12.x` ? (the docker build stdout quote below)
+
+```bash
+Step 3/11 : RUN curl -sL https://deb.nodesource.com/setup_8.x | bash -
+ ---> Running in aae3a65d2e3f
+
+================================================================================
+================================================================================
+
+                              DEPRECATION WARNING                            
+
+  Node.js 8.x LTS Carbon is no longer actively supported!
+
+  You will not receive security or critical stability updates for this version.
+
+  You should migrate to a supported version of Node.js as soon as possible.
+  Use the installation script that corresponds to the version of Node.js you
+  wish to install. e.g.
+
+   * https://deb.nodesource.com/setup_10.x — Node.js 10 LTS "Dubnium"
+   * https://deb.nodesource.com/setup_12.x — Node.js 12 LTS "Erbium" (recommended)
+   * https://deb.nodesource.com/setup_14.x — Node.js 14 LTS "Fermium"
+
+  Please see https://github.com/nodejs/Release for details about which
+  version may be appropriate for you.
+
+  The NodeSource Node.js distributions repository contains
+  information both about supported versions of Node.js and supported Linux
+  distributions. To learn more about usage, see the repository:
+    https://github.com/nodesource/distributions
+
+================================================================================
+================================================================================
+```
+
 
 ## Other tested repos 
 
