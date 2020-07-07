@@ -1,5 +1,6 @@
 # Le Défi (I dare anyone in the world)
 
+_Important Update : As you will see on issue numer 3 in this repo, One person took the challenge, and I thank him very much for that, also of course will test out everything, and obviously quotie him and thank him about it!_
 
 Does the blockchain exists ? 
 
@@ -13,12 +14,6 @@ The conditions for a proof to be accepted :
 * Only one, for the time being, the proof should consist of an entirely automated installation process (no interactivity, or almost none)
 * You must provide complete source code, and fully automated process for building from source all binaries.
 * The entire blockchain must not lose any feature, at all, I f I run it on a compeltely private infrastructure, all completely disconnected from the public internet.
-* There is only one specific technology, that I will not accept as a proved blockchain : 
-  * I will talk about that technology, 
-  * I will prove that I knew about that technology before opening this repo
-  * That technology has a name starting with the letter **`b`** (and it is _not_ bitcoin)
-  * I already know about that technology
-  * so I dare any one in this world, to prove that there exists any Blockchain open source project, whose name does not start wiht the letter **`b`**.
 
 Today, in 2020, if you say you are the author or even contributor, to any open source blockchain project, and at the same time, say that it is too much work, to automate its installation and build from source, I say you are a liar.
 
