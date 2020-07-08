@@ -20,9 +20,15 @@ Very personal, from me, To Santiago :
 > (De Gaulle talking to Hollande) : "The only way you can fix this country, is if you abolish the month of May
 > 
 
-Well, Santiago, before you consider "fixing" Frace, let's see about your own argentinian git repos, shall we ?  
+Well, Santiago, before you consider "fixing" France, let's see about your own argentinian git repos, shall we ?  
 
 And when finished with your repos, then we can talk about your ideas. 
+
+## https://democracy.earth
+
+First things first, the online demo / or project website at https://democracy.earth is down (tested with firefox `68.9.0esr (64-bit)` on debian ) :
+
+![down](https://github.com/Jean-Baptiste-Lasselle/for-fellow-developers/raw/master/docuementation/impr.ecrans/democracy-earth/DEMOCRACY_EARTH_DOWN_2020-07-08%2010-39-46.png)
 
 ## https://github.com/DemocracyEarth/blockchain
 
