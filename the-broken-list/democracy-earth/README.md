@@ -1163,3 +1163,56 @@ Finally, let me give you a real quote, from De Gaulle :
 
 Regards.
 
+
+# Final Response from Santiago Siri 
+
+As you wil read for yourselves in the issue above referenced on Democracy Earth github org, Mr. Siri answered to my issue, and basically if
+ you hoped about having your own blockchain with that project, : 
+ * A. forget about it,
+ * and B. quoting Mr. Siri's own words inb his answer : 
+ 
+ > "Hey, C'st la vie".
+
+And now you know what 's gonna happen, if you thought about telling Democracy Earth "Hey, I don't like the idea that my votes go through proprietary servers I don't have any control on, how can I provision A private Blockchain?"
+
+Answer will be, "Hey, C'est La Vie". 
+
+Plus I can tell you that Mr. Siri knows nothing about the blckchain, and for aa start would not ever be able t o show yu how to deploy one. 
+
+All he has is a simple web app project that does not even work live, and that no one uses, in the world.
+
+
+A pretty nasty flase flag this one : 
+* would make people entirely dependent on a pure proprietary software 
+  * based on the fact that people he speaks to, do not have the means to technically check what I checked
+  * and he is very careful about never ever mentioning Infura.io and who owns that company, in those videos where he presents himself as a "revolutionary". 
+* They say It is `Ethereum`, at infura.io, and this repo is about giving you the proof, that they are lying. Indeed, if it was, then they would give us the way to provision that in our own servers, like real projects, for example :
+  * kubernetes
+  * Wildfly
+  * harbor
+  * Portus (I personally worked on that one)
+  * helm molecular
+  * RocketChat
+  * Traefik
+  * https://gravitee.io
+  * Open Street Map
+  * And thousands of them on github !! 
+
+How can I say, for sure, it is not Ethereum ? Because Ethereum has open source code published at https://github.com/ethereum/go-ethereum and : 
+* this repo is daring anyone in this world, to give a link to one docuementation, by which you can : 
+  * build from source the https://github.com/ethereum/go-ethereum (and any other required compoenents under https://github.com/ethereum )
+  * and the deploys what has been built, 
+  * so that you finally have a fully operational ethereum `Blockchain`.
+  * I know a bit of people in my profession, and I dared all of them. None has ever chalenged, all have immediately said they did not see it for themselves.
+
+Right, now I wil keep saying that all those people talking about `Ethereum`, or any blockchain, is a liar, until he or she, gives me a reproduceable way to provision the blockchain, starting form source code : pretty simple; and done by thousands if not all, serious projects on Github.com
+
+Why are those lies here and there, well I leave you the work of making your own opinion my job is to analyze, and give (you) people proofs.
+
+Nothing else but proofs, science.
+
+
+Just in case any of this would "dispapear" from the github, well here is a screenshot of the issue oand Mr. Siri's answer : 
+
+![C'est la vie](https://github.com/Jean-Baptiste-Lasselle/for-fellow-developers/raw/master/docuementation/impr.ecrans/democracy-earth/LAST_RESPONSE_TO_SANTIAGO_SIRI_Firefox_Screenshot_2020-07-09T18-06-10.012Z.png)
+
