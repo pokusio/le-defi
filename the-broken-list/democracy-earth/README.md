@@ -28,7 +28,7 @@ And when finished with your repos, then we can talk about your ideas.
 
 First things first, the online demo / or project website at https://democracy.earth is down (tested with firefox `68.9.0esr (64-bit)` on debian ) :
 
-![down](https://github.com/Jean-Baptiste-Lasselle/for-fellow-developers/raw/master/docuementation/impr.ecrans/democracy-earth/DEMOCRACY_EARTH_DOWN_2020-07-08%2010-39-46.png)
+![down](https://github.com/Jean-Baptiste-Lasselle/for-fellow-developers/raw/master/docuementation/impr.ecrans/democracy-earth/LAST_RESPONSE_TO_SANTIAGO_SIRI_Firefox_Screenshot_2020-07-09T21-13-25.637Z.png)
 
 ## https://github.com/DemocracyEarth/blockchain
 
@@ -1214,5 +1214,5 @@ Nothing else but proofs, science.
 
 Just in case any of this would "dispapear" from the github, well here is a screenshot of the issue oand Mr. Siri's answer : 
 
-![C'est la vie](https://github.com/Jean-Baptiste-Lasselle/for-fellow-developers/raw/master/docuementation/impr.ecrans/democracy-earth/LAST_RESPONSE_TO_SANTIAGO_SIRI_Firefox_Screenshot_2020-07-09T18-06-10.012Z.png)
+![C'est la vie](https://github.com/Jean-Baptiste-Lasselle/for-fellow-developers/raw/master/docuementation/impr.ecrans/democracy-earth/LAST_RESPONSE_TO_SANTIAGO_SIRI_Firefox_Screenshot_2020-07-09T21-13-25.637Z.png)
 
